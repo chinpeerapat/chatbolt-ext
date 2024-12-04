@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI Assistant",
+  "version": "1.0.0",
+  "description": "AI Assistant Chrome Extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://openrouter.ai/*"
+  ]
+}
